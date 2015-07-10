@@ -9,10 +9,10 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_OPTIONS(&lt;#Value Type#&gt;, E&lt;#PropertyName#&gt;Mask) {
-    e&lt;#PropertyName#&gt;NoneMask  = 0,
-    e&lt;#PropertyName1#&gt;Mask     = 1 &lt;&lt; 0,
-    e&lt;#PropertyName2#&gt;Mask     = 1 &lt;&lt; 1
+	<string>typedef NS_OPTIONS(&lt;#Value Type#&gt;, MST&lt;#PropertyName#&gt;Mask) {
+    MST&lt;#PropertyName#&gt;NoneMask  = 0,
+    MST&lt;#PropertyName1#&gt;Mask     = 1 &lt;&lt; 0,
+    MST&lt;#PropertyName2#&gt;Mask     = 1 &lt;&lt; 1
 };</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C2F97603-6E4C-417B-9759-5A755FAC5DF5</string>
