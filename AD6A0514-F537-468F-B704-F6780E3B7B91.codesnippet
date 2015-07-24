@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property, ppt_string</string>
+	<string>@property, ppt_bool</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy, nonatomic) NSString  *</string>
+	<string>@property (assign, nonatomic) BOOL &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CE3361D0-2887-453B-A873-687516FB9266</string>
+	<string>AD6A0514-F537-468F-B704-F6780E3B7B91</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property (copy, nonatomic) NSString *</string>
+	<string>@property (assign, nonatomic) BOOL</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MST @property NSString *</string>
+	<string>MST @property (assign, nonatomic) BOOL</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
