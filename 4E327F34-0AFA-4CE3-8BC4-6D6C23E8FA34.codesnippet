@@ -7,11 +7,13 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
-		<string>ClassImplementation</string>
 		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>///--------------------------------------
+#pragma mark - &lt;#Section#&gt;
+///--------------------------------------</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4E327F34-0AFA-4CE3-8BC4-6D6C23E8FA34</string>
 	<key>IDECodeSnippetLanguage</key>

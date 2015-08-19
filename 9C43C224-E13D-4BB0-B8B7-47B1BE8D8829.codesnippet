@@ -9,46 +9,66 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - life cycle
+	<string>///--------------------------------------
+#pragma mark - life cycle
+///--------------------------------------
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
 
+///--------------------------------------
 #pragma mark - UITableViewDataSource
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - UITableViewDelegate
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - customDelegate
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - event response
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - private methods
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - Network
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - KVO Action
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - Update Views
+///--------------------------------------
 
 
 
+///--------------------------------------
 #pragma mark - getters and setters
+///--------------------------------------
 
 
 
