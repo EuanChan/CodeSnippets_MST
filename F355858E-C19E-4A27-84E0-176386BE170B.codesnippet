@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init, -(id)init</string>
+	<string>init, initnotdesign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -11,22 +11,17 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)init
 {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"&lt;#StoryboardName#&gt;" bundle:nil];
-    self = [storyboard instantiateViewControllerWithIdentifier:@"&lt;#boardID#&gt;"];
-    if (self) {
-    
-    }
-    return self;
+    MSTNotDesignatedInitializer();
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8878423D-A986-4D61-B397-D1A57E159255</string>
+	<string>F355858E-C19E-4A27-84E0-176386BE170B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MST Init With Storyboard Implemention</string>
+	<string>MST init not designated implementation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
