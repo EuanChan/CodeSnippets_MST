@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init, initnotdesign</string>
+	<string>markViewModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -12,16 +12,40 @@
 	<string>- (instancetype)init
 {
     MSTNotDesignatedInitializer();
-}</string>
+}
+
+- (instancetype)initWith&lt;#Name#&gt;:(&lt;#ClassType#&gt; *)&lt;#ParamName#&gt;{
+    self = [super init];
+    if (!self)
+        return nil;
+
+    
+    [self configureReactive];
+
+    return self;
+}
+
+///--------------------------------------
+#pragma mark - Reactive Stuff
+///--------------------------------------
+- (void)configureReactive
+{
+}
+
+
+///--------------------------------------
+#pragma mark - getters and setters
+///--------------------------------------
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F355858E-C19E-4A27-84E0-176386BE170B</string>
+	<string>15F3746A-9714-4E89-9E24-4D34A24696B6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MST init not designated implementation</string>
+	<string>mark - viewModel Implementation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
