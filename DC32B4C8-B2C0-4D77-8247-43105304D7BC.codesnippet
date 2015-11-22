@@ -19,9 +19,14 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+///--------------------------------------
+#pragma mark - setup &amp; configuration
+///--------------------------------------
+
+
 
 ///--------------------------------------
-#pragma mark - customDelegate
+#pragma mark - custom delegate
 ///--------------------------------------
 
 
@@ -33,23 +38,13 @@
 
 
 ///--------------------------------------
-#pragma mark - private methods
-
-
-
-///--------------------------------------
-#pragma mark - Network
-///--------------------------------------
-
-
-///--------------------------------------
-#pragma mark - KVO Action
+#pragma mark - update views
 ///--------------------------------------
 
 
 
 ///--------------------------------------
-#pragma mark - Update Views
+#pragma mark - helper/private methods
 ///--------------------------------------
 
 
@@ -57,8 +52,6 @@
 ///--------------------------------------
 #pragma mark - getters and setters
 ///--------------------------------------
-
-
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DC32B4C8-B2C0-4D77-8247-43105304D7BC</string>

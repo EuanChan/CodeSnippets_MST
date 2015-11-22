@@ -12,11 +12,18 @@
 	<string>///--------------------------------------
 #pragma mark - life cycle
 ///--------------------------------------
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
+
+///--------------------------------------
+#pragma mark - setup &amp; configuration
+///--------------------------------------
+
+
 
 ///--------------------------------------
 #pragma mark - UITableViewDataSource
@@ -31,7 +38,7 @@
 
 
 ///--------------------------------------
-#pragma mark - customDelegate
+#pragma mark - custom delegate
 ///--------------------------------------
 
 
@@ -43,25 +50,13 @@
 
 
 ///--------------------------------------
-#pragma mark - private methods
+#pragma mark - update views
 ///--------------------------------------
 
 
 
 ///--------------------------------------
-#pragma mark - Network
-///--------------------------------------
-
-
-
-///--------------------------------------
-#pragma mark - KVO Action
-///--------------------------------------
-
-
-
-///--------------------------------------
-#pragma mark - Update Views
+#pragma mark - helper/private methods
 ///--------------------------------------
 
 
@@ -69,8 +64,6 @@
 ///--------------------------------------
 #pragma mark - getters and setters
 ///--------------------------------------
-
-
 
 </string>
 	<key>IDECodeSnippetIdentifier</key>
